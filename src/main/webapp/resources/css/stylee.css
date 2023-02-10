@@ -1,0 +1,84 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #b39ddb;
+	padding: 30px;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 50px;
+	 font-size: 36px;
+   font-weight: bold;
+   color: #333;
+}
+
+button {
+	background-color: blue;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	float: right;
+	margin-bottom: 20px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 50px;
+}
+
+
+th, td {
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+th {
+	background-color: blue;
+	color: white;
+}
+
+input[type="submit"] {
+background-color: black;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+float: none;
+margin: 0 auto;
+display: block;
+margin-bottom: 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+rgba(0, 0, 0, 0.19);
+transition: all 0.5s ease;
+}
+
+button {
+	background-color: black;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	float: right;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+	transition: all 0.5s ease;
+}
+
+button:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px
+		rgba(0, 0, 0, 0.23);
+}
+
+tr:hover {
+	background-color: #f5f5f5;
+}
